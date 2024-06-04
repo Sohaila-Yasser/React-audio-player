@@ -1,0 +1,32 @@
+.audio {
+  width: 25%;
+  height: 27rem;
+  background: white;
+  margin-left: 8rem;
+  border-radius: 6px;
+  padding-top: 2rem;
+}
+
+.audio-img {
+  width: 17rem;
+  height: 13rem;
+}
+
+.next,
+.prev {
+  background: transparent;
+  color: rgba(229, 0, 57, 1);
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+
+button {
+  background: transparent;
+  border: none;
+  margin-top: 0.8rem;
+}
+
+.next:hover,
+.prev:hover {
+  transform: scale(0.9);
+}
